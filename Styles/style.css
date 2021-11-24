@@ -1,65 +1,64 @@
 .bg-primary {
-  background-color: #134074;
+  background-color: #0E76E5;
+}
+
+.text-name {
+  color: #0E76E5;
 }
 
 .bg-secondary {
   background-color: #cccccc;
 }
 
+.text-name {
+  color: #cccccc;
+}
+
 .bg-success {
   background-color: #0fa55a;
+}
+
+.text-name {
+  color: #0fa55a;
 }
 
 .bg-danger {
   background-color: #FF3C38;
 }
 
+.text-name {
+  color: #FF3C38;
+}
+
 .bg-warning {
   background-color: #FF8C42;
+}
+
+.text-name {
+  color: #FF8C42;
 }
 
 .bg-info {
   background-color: #86BBD8;
 }
 
+.text-name {
+  color: #86BBD8;
+}
+
 .bg-light {
   background-color: #F7F5FB;
 }
 
-.bg-dark {
-  background-color: #040F0F;
-  color: white;
-}
-
-.text-primary {
-  color: #134074;
-}
-
-.text-secondary {
-  color: #cccccc;
-}
-
-.text-success {
-  color: #0fa55a;
-}
-
-.text-danger {
-  color: #FF3C38;
-}
-
-.text-warning {
-  color: #FF8C42;
-}
-
-.text-info {
-  color: #86BBD8;
-}
-
-.text-light {
+.text-name {
   color: #F7F5FB;
 }
 
-.text-dark {
+.bg-dark {
+  background-color: #040F0F;
+}
+
+.text-name {
   color: #040F0F;
 }
 
@@ -79,10 +78,6 @@
           column-gap: 0.5em;
   -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr);
-}
-
-.col {
-  grid-column: span 4;
 }
 
 .col-1 {

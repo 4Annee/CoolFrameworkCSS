@@ -1,69 +1,21 @@
-// Main Colors 
-$primary : #134074;
-$secondary : #cccccc;
-$success : #0fa55a;
-$danger : #FF3C38;
-$warning : #FF8C42;
-$info : #86BBD8;
-$light : #F7F5FB;
-$dark : #040F0F;
+@import 'base/variables';
 
-// Background Colors
+// Background And Text Colors
 
-.bg-primary{
-    background-color: $primary;
-}
-.bg-secondary{
-    background-color: $secondary;
-}
-.bg-success{
-    background-color: $success;
-}
-.bg-danger{
-    background-color: $danger;
-}
-.bg-warning{
-    background-color: $warning;
-}
-.bg-info{
-    background-color: $info;
-}
-.bg-light{
-    background-color: $light;
-}
-.bg-dark{
-    background-color: $dark;
-    color: white;
-}
 
-.text-primary{
-    color: $primary;
-}
-.text-secondary{
-    color: $secondary;
-}
-.text-success{
-    color: $success;
-}
-.text-danger{
-    color: $danger;
-}
-.text-warning{
-    color: $warning;
-}
-.text-info{
-    color: $info;
-}
-.text-light{
-    color: $light;
-}
-.text-dark{
-    color: $dark;
+@each $name,
+$color in $Colors {
+    .bg-#{$name} {
+        background-color: $color;
+    }
+    .text-#{name} {
+        color: $color;
+    }
 }
 
 // Container
 
-.container{
+.container {
     width: 80%;
     margin: auto;
     background-color: transparent;
@@ -73,10 +25,10 @@ $dark : #040F0F;
 
 // CSS Grid
 
-.row{
+.row {
     display: grid;
     column-gap: 0.5em;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: repeat(12, 1fr);
 }
 
 // Default Column (Code For Auto Span For Future Iterations)
@@ -89,7 +41,7 @@ $dark : #040F0F;
 
 @for $i from 1 through 12 {
     .col-#{$i} {
-      grid-column: span #{$i};
+        grid-column: span #{$i};
     }
 }
 
@@ -99,18 +51,14 @@ $dark : #040F0F;
 //  Media Queries
 
 /* Larger than mobile */
-@media (max-width: 400px) {
-
-}
+@media (max-width: 400px) {}
 
 /* Larger than phablet */
-@media (max-width: 550px) {
-
-}
+@media (max-width: 550px) {}
 
 /* Larger than tablet */
 @media (max-width: 750px) {
-    .container{
+    .container {
         width: auto;
     }
 }
