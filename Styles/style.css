@@ -81,6 +81,10 @@
       grid-template-columns: repeat(12, 1fr);
 }
 
+.col {
+  grid-column: span 4;
+}
+
 .col-1 {
   grid-column: span 1;
 }
