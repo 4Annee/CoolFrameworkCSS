@@ -1,0 +1,143 @@
+.bg-primary {
+  background-color: #134074;
+}
+
+.bg-secondary {
+  background-color: #cccccc;
+}
+
+.bg-success {
+  background-color: #0fa55a;
+}
+
+.bg-danger {
+  background-color: #FF3C38;
+}
+
+.bg-warning {
+  background-color: #FF8C42;
+}
+
+.bg-info {
+  background-color: #86BBD8;
+}
+
+.bg-light {
+  background-color: #F7F5FB;
+}
+
+.bg-dark {
+  background-color: #040F0F;
+  color: white;
+}
+
+.text-primary {
+  color: #134074;
+}
+
+.text-secondary {
+  color: #cccccc;
+}
+
+.text-success {
+  color: #0fa55a;
+}
+
+.text-danger {
+  color: #FF3C38;
+}
+
+.text-warning {
+  color: #FF8C42;
+}
+
+.text-info {
+  color: #86BBD8;
+}
+
+.text-light {
+  color: #F7F5FB;
+}
+
+.text-dark {
+  color: #040F0F;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: transparent;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 0.5em;
+          column-gap: 0.5em;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.col-7 {
+  grid-column: span 7;
+}
+
+.col-8 {
+  grid-column: span 8;
+}
+
+.col-9 {
+  grid-column: span 9;
+}
+
+.col-10 {
+  grid-column: span 10;
+}
+
+.col-11 {
+  grid-column: span 11;
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+/* Larger than mobile */
+/* Larger than phablet */
+/* Larger than tablet */
+@media (max-width: 750px) {
+  .container {
+    width: auto;
+  }
+}
+
+/* Larger than desktop */
+/* Larger than Desktop HD */
+/*# sourceMappingURL=style.css.map */
