@@ -383,8 +383,8 @@
   display: grid;
   -webkit-column-gap: 0.5em;
           column-gap: 0.5em;
-  grid-template-columns: repeat(12, 1fr);
-  -ms-grid-columns: repeat(12,1fr);
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
 }
 
 .col-1 {
