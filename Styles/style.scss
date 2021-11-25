@@ -25,9 +25,12 @@ $color in $Colors {
     .bg-#{$name} {
         background-color: $color;
     }
-    .text-#{name} {
+    .text-#{$name} {
         color: $color;
     }
+}
+.bg-dark{
+    color: white;
 }
 
 // Container

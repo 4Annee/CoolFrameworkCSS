@@ -12,16 +12,21 @@
 <body>
     <div class="hero py-3">
         <h1>You Can't Use Bootstrap They Said, Do Project They Said</h1>
+        <small>This is gonna be fixed when we/i do the hero section css</small>
         <a class="btn btn-info" href="#">Donwload The StyleSheet</a>
 
         <nav class="sticky row">
-            <div class="navitem"><a href="">Introduction</a></div>
-            <div class="navitem"><a href="">Documentation</a></div>
+            <div class="navitem"><a href="#Introduction">Introduction</a></div>
+            <div class="navitem"><a href="#Documentation">Documentation</a></div>
+            <div class="navitem"><a href="">Components</a></div>
             <div class="navitem"><a href="">Contributions</a></div>
         </nav>
     </div>
 
-    <div class="container my-2">
+    <div id="Introduction" class="container my-2">
+        <h2>OurCSS</h2>
+        <p>A CSS Utility/Component Framework</p>
+        <hr>
         <h2>Progress So Far</h2>
         <ul>
             <li><s>Colors, background Colors, Text Colors</s></li>
@@ -35,54 +40,77 @@
         </ul>
     </div>
 
-    <div class="container"> 
-        <h2>Grid</h2>
-        <p>**Description To Be Written**</p>
-        <div class="row">
-            <div class="col-1 p-sm-1 m-sm-1 bg-light rounded">One</div>
-            <div class="col-11 p-sm-1 m-sm-1 bg-light rounded">Eleven</div>
+    <div id="Documentation" class="container">
+        <div class="py-2">
+            <h2>Grid</h2>
+            <p>**Description To Be Written**</p>
+            <div class="row">
+                <div class="col-1 p-sm-1 m-sm-1 bg-light rounded">One</div>
+                <div class="col-11 p-sm-1 m-sm-1 bg-light rounded">Eleven</div>
+            </div>
+            <div class="row">
+                <div class="col-2 p-sm-1 m-sm-1 bg-light rounded">Two</div>
+                <div class="col-10 p-sm-1 m-sm-1 bg-light rounded">Ten</div>
+            </div>
+            <div class="row">
+                <div class="col-3 p-sm-1 m-sm-1 bg-light rounded">Three</div>
+                <div class="col-9 p-sm-1 m-sm-1 bg-light rounded">Nine</div>
+            </div>
+            <div class="row">
+                <div class="col-4 p-sm-1 m-sm-1 bg-light rounded">Four</div>
+                <div class="col-8 p-sm-1 m-sm-1 bg-light rounded">Eight</div>
+            </div>
+            <div class="row">
+                <div class="col-5 p-sm-1 m-sm-1 bg-light rounded">Five</div>
+                <div class="col-7 p-sm-1 m-sm-1 bg-light rounded">Seven</div>
+            </div>
+            <div class="row">
+                <div class="col-6 p-sm-1 m-sm-1 bg-light rounded">Six</div>
+                <div class="col-6 p-sm-1 m-sm-1 bg-light rounded">Six</div>
+            </div>
+            <div class="row">
+                <div class="col-7 p-sm-1 m-sm-1 bg-light rounded">Seven</div>
+                <div class="col-5 p-sm-1 m-sm-1 bg-light rounded">Five</div>
+            </div>
+            <div class="row">
+                <div class="col-8 p-sm-1 m-sm-1 bg-light rounded">Eight</div>
+                <div class="col-4 p-sm-1 m-sm-1 bg-light rounded">Four</div>
+            </div>
+            <div class="row">
+                <div class="col-9 p-sm-1 m-sm-1 bg-light rounded">Nine</div>
+                <div class="col-3 p-sm-1 m-sm-1 bg-light rounded">Three</div>
+            </div>
+            <div class="row">
+                <div class="col-10 p-sm-1 m-sm-1 bg-light rounded">Ten</div>
+                <div class="col-2 p-sm-1 m-sm-1 bg-light rounded">Two</div>
+            </div>
+            <div class="row">
+                <div class="col-11 p-sm-1 m-sm-1 bg-light rounded">Eleven</div>
+                <div class="col-1 p-sm-1 m-sm-1 bg-light rounded">One</div>
+            </div>
         </div>
-        <div class="row">
-            <div class="col-2 p-sm-1 m-sm-1 bg-light rounded">Two</div>
-            <div class="col-10 p-sm-1 m-sm-1 bg-light rounded">Ten</div>
+        <div class="py-2">
+            <h2>Colors</h2>
+            <p>** Description here later **</p>
+            <h3>Background Colors</h3>
+            <div class="bg-dark p-1 my-sm-1 rounded">background dark</div>
+            <div class="bg-primary p-1 my-sm-1 rounded">background primary</div>
+            <div class="bg-secondary p-1 my-sm-1 rounded">background secondary</div>
+            <div class="bg-warning p-1 my-sm-1 rounded">background warning</div>
+            <div class="bg-danger p-1 my-sm-1 rounded">background danger</div>
+            <div class="bg-info p-1 my-sm-1 rounded">background info</div>
+            <div class="bg-light p-1 my-sm-1 rounded">background light</div>
+            <div class="bg-success p-1 my-sm-1 rounded">background success</div>
+            <h3>Text Colors</h3>
+            <div class="text-dark p-sm-1 ">Text dark</div>
+            <div class="text-primary p-sm-1 ">Text primary</div>
+            <div class="text-secondary p-sm-1 ">Text secondary</div>
+            <div class="text-warning p-sm-1 ">Text warning</div>
+            <div class="text-danger p-sm-1 ">Text danger</div>
+            <div class="text-info p-sm-1 ">Text info</div>
+            <div class="text-light p-sm-1 ">Text light</div>
+            <div class="text-success p-sm-1 ">Text success</div>
         </div>
-        <div class="row">
-            <div class="col-3 p-sm-1 m-sm-1 bg-light rounded">Three</div>
-            <div class="col-9 p-sm-1 m-sm-1 bg-light rounded">Nine</div>
-        </div>
-        <div class="row">
-            <div class="col-4 p-sm-1 m-sm-1 bg-light rounded">Four</div>
-            <div class="col-8 p-sm-1 m-sm-1 bg-light rounded">Eight</div>
-        </div>
-        <div class="row">
-            <div class="col-5 p-sm-1 m-sm-1 bg-light rounded">Five</div>
-            <div class="col-7 p-sm-1 m-sm-1 bg-light rounded">Seven</div>
-        </div>
-        <div class="row">
-            <div class="col-6 p-sm-1 m-sm-1 bg-light rounded">Six</div>
-            <div class="col-6 p-sm-1 m-sm-1 bg-light rounded">Six</div>
-        </div>
-        <div class="row">
-            <div class="col-7 p-sm-1 m-sm-1 bg-light rounded">Seven</div>
-            <div class="col-5 p-sm-1 m-sm-1 bg-light rounded">Five</div>
-        </div>
-        <div class="row">
-            <div class="col-8 p-sm-1 m-sm-1 bg-light rounded">Eight</div>
-            <div class="col-4 p-sm-1 m-sm-1 bg-light rounded">Four</div>
-        </div>
-        <div class="row">
-            <div class="col-9 p-sm-1 m-sm-1 bg-light rounded">Nine</div>
-            <div class="col-3 p-sm-1 m-sm-1 bg-light rounded">Three</div>
-        </div>
-        <div class="row">
-            <div class="col-10 p-sm-1 m-sm-1 bg-light rounded">Ten</div>
-            <div class="col-2 p-sm-1 m-sm-1 bg-light rounded">Two</div>
-        </div>
-        <div class="row">
-            <div class="col-11 p-sm-1 m-sm-1 bg-light rounded">Eleven</div>
-            <div class="col-1 p-sm-1 m-sm-1 bg-light rounded">One</div>
-        </div>
-        
     </div>
 
 </body>

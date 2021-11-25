@@ -64,6 +64,10 @@
     .my-#{$i}{
         margin-top: $i*1em;
         margin-bottom: $i*1em;
+    }  
+    .my-sm-#{$i}{
+        margin-top: $i*.5em;
+        margin-bottom: $i*.5em;
     }
     .mx-#{$i}{
         margin-left: $i*1em;
