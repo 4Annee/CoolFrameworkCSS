@@ -1,7 +1,14 @@
+//// Base
 @import 'base/variables';
+@import'base/spacing';
+//// Layout
 @import 'layout/grid';
-// Background And Text Colors
 
+
+// Background And Text Colors
+.rounded{
+    border-radius: 8px;
+}
 
 @each $name,
 $color in $Colors {
