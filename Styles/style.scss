@@ -1,8 +1,18 @@
 //// Base
 @import 'base/variables';
 @import'base/spacing';
+@import'base/functions';
+@import'base/typography';
+//// Component
+@import 'components/buttons';
 //// Layout
 @import 'layout/grid';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/sidebar';
+//// Sections
+@import 'sections/hero';
 
 
 // Background And Text Colors
