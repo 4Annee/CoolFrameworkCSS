@@ -1,5 +1,5 @@
 @import 'base/variables';
-
+@import 'layout/grid';
 // Background And Text Colors
 
 
@@ -21,50 +21,3 @@ $color in $Colors {
     background-color: transparent;
     align-self: center;
 }
-
-
-// CSS Grid
-
-.row {
-    display: grid;
-    column-gap: 0.5em;
-    grid-template-columns: repeat(12, 1fr);
-}
-
-// Default Column (Code For Auto Span For Future Iterations)
-
-// .col{
-//     grid-column: span 4;
-// }
-
-// Column With Different Sizes
-
-@for $i from 1 through 12 {
-    .col-#{$i} {
-        grid-column: span #{$i};
-    }
-}
-
-
-
-
-//  Media Queries
-
-/* Larger than mobile */
-@media (max-width: 400px) {}
-
-/* Larger than phablet */
-@media (max-width: 550px) {}
-
-/* Larger than tablet */
-@media (max-width: 750px) {
-    .container {
-        width: auto;
-    }
-}
-
-/* Larger than desktop */
-@media (max-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1000px) {}
