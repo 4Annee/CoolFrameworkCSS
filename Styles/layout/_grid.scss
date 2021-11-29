@@ -19,7 +19,14 @@
     }
 }
 
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
 
+.flexrow.centered{
+    justify-content: center;
+}
 
 /* Larger than mobile */
 @media (max-width: 400px) {}
