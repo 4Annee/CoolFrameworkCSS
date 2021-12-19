@@ -5,6 +5,7 @@
 @import'base/typography';
 //// Component
 @import 'components/buttons';
+@import 'components/tables';
 //// Layout
 @import 'layout/grid';
 @import 'layout/footer';
@@ -13,6 +14,8 @@
 @import 'layout/sidebar';
 //// Sections
 @import 'sections/hero';
+//// Utilites
+@import 'utilities/shadows';
 
 
 // Background And Text Colors
