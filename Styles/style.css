@@ -450,6 +450,10 @@ table.black-lines tr:nth-child(2n+1) > td {
     }
 
 */
+img .w-100 {
+  width: 100%;
+}
+
 .row {
   display: -ms-grid;
   display: grid;
